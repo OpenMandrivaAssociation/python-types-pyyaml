@@ -2,7 +2,7 @@
 %define oname types_pyyaml
 
 Name:		python-types-pyyaml
-Version:	6.0.12.20250915
+Version:	6.0.12.20260724
 Release:	1
 Summary:	Typing stubs for PyYAML
 URL:		https://pypi.org/project/types-pyyaml/
@@ -20,7 +20,7 @@ BuildRequires:	python%{pyver}dist(setuptools)
 Typing stubs for PyYAML
 
 %prep
-%autosetup -p1 -n %{oname}-%{version}
+%autosetup -p1 -n types_pyyaml-6.0.12.20260724
 
 %build
 %py_build
