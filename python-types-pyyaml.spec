@@ -20,7 +20,7 @@ BuildRequires:	python%{pyver}dist(setuptools)
 Typing stubs for PyYAML
 
 %prep
-%autosetup -p1 -n types_pyyaml-6.0.12.20260724
+%autosetup -p1 -n %{oname}-%{version}
 
 %build
 %py_build
