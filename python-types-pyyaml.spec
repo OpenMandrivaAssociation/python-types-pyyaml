@@ -2,7 +2,7 @@
 %define oname types_pyyaml
 
 Name:		python-types-pyyaml
-Version:	6.0.12.20260724
+Version:	6.0.12.20260906
 Release:	1
 Summary:	Typing stubs for PyYAML
 URL:		https://pypi.org/project/types-pyyaml/
